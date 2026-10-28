@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f3">
+
+  <title>Un pequeño universo para ti</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="background-glow"></div>
+  <div id="hearts-container"></div>
+
+
+  <section id="welcome" class="screen active">
+
+    <div class="intro">
+      <span class="eyebrow">Un regalo para ti dandote algo de mi</span>
+
+      <h1>Hay algo que<br>
+        <span>quiero mostrarte</span>
+      </h1>
+
+      <p>
+        Preparé un pequeño lugar en el universo<br>
+        solo para ti.
+      </p>
+
+      <div class="gift-wrapper" id="gift">
+
+        <div class="gift-box">
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-ribbon"></div>
+
+          <div class="gift-bow">
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="gift-front">
+            <span>♥</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <p class="tap-hint">Toca el regalo para abrirlo</p>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="letter-screen" class="screen">
+
+    <div class="letter-container">
+
+      <span class="eyebrow">PARA TI, CON TODO MI CARIÑO</span>
+
+      <div class="letter-card">
+
+        <div class="letter-decoration">♡</div>
+
+        <h2>Mi querida <span id="her-name">amor</span></h2>
+
+        <div class="letter-content">
+
+          <p>
+            Hoy a 4 dias restantes para tu cumpleaños quise darte tu regalo 
+            por adelantado porque no se que pueda ocurrir mas adelante.
+            No sé si existen las palabras exactas para expresar
+            todo lo que siento por ti, pero hoy quiero intentarlo.
+          </p>
+
+          <p>
+            Desde que llegaste a mi vida, hay momentos que tienen
+            un significado distinto. Una conversación, una sonrisa,
+            una mirada o simplemente saber de ti.
+          </p>
+
+          <p>
+            No hice esto porque sea una fecha especial 
+            o porque me lo hallas pedido o lo mencionaras.
+            Lo hice porque tú eres especial para mí.
+          </p>
+
+          <p>
+            Quería regalarte algo que pudieras abrir cuando quisieras,
+            algo que te recordara que hay alguien que piensa en ti
+            con mucho cariño.
+          </p>
+
+          <p class="signature">
+            Con cariño,<br>
+            <span id="my-name">Alguien que te quiere</span>
+          </p>
+
+        </div>
+
+        <button class="button button-primary" id="memories-btn">
+          Hay algo más...
+          <span>♡</span>
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <section id="memories-screen" class="screen">
+
+    <div class="memories-container">
+
+      <span class="eyebrow">PEQUEÑOS INSTANTES, GRANDES SENTIMIENTOS</span>
+
+      <h2>Un pedacito de<br>
+        <span>nuestro universo</span>
+      </h2>
+
+      <p class="memories-intro">
+        Hay recuerdos que merecen quedarse un poquito más.
+      </p>
+
+      <div class="photo-grid">
+
+        <div class="photo-card photo-one">
+          <img src="assets/fotos/foto1.jpg" alt="Un recuerdo especial">
+          <span>Un momento que guardo con cariño.</span>
+        </div>
+
+        <div class="photo-card photo-two">
+          <img src="assets/fotos/foto2.jpg" alt="Otro recuerdo especial">
+          <span>Nuestros inicios que valoro con el alma.</span>
+        </div>
+
+        <div class="photo-card photo-three">
+          <img src="assets/fotos/foto3.jpg" alt="Un momento juntos">
+          <span>El recuerdo mas intimo que tengo de ti.</span>
+        </div>
+
+      </div>
+
+      <button class="button button-primary" id="final-btn">
+        Una última cosita...
+        <span>♡</span>
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- FINAL -->
+  <section id="final-screen" class="screen">
+
+     <div class="final-container">
+
+      <span class="eyebrow">UN PEQUEÑO UNIVERSO PARA TI</span>
+
+      <div class="illustration-card">
+
+        <img
+          src="assets/ilustracion.png"
+          alt="Una ilustración romántica de nosotros dos bajo las estrellas"
+          class="romantic-illustration"
+        >
+
+        <div class="illustration-caption">
+          <span class="caption-heart">♡</span>
+          <p>Hay lugares que son bonitos...</p>
+          <p class="caption-highlight">
+            y personas que hacen bonito cualquier lugar.
+          </p>
+        </div>
+
+      </div>
+
+      <h1>
+        Gracias por ser<br>
+        <span>parte de mi mundo.</span>
+      </h1>
+
+      <p>
+        No sé qué nos depara el futuro,
+        pero me alegra que nuestros caminos
+        se hayan encontrado y no quiero que tomen distintos direccciones.
+      </p>
+
+      <p class="final-phrase">
+        Si pudiera regalarte algo más,<br>
+        sería la posibilidad de verte<br>
+        con los ojos con los que yo te veo.
+      </p>
+
+      <div class="final-signature">
+        Hecho especialmente para ti , Feliz cumpleaños adelantado te amo.♥
+      </div>
+
+      <button class="button button-outline" id="restart-btn">
+        Volver a abrir el regalo
+      </button>
+
+    </div>
+
+  </section>
+
+
+
+  <button id="music-btn" class="music-button" aria-label="Activar música">
+    ♫
+  </button>
+
+  <audio id="music" loop>
+    <source src="assets/musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
